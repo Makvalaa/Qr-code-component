@@ -1,0 +1,47 @@
+* {
+  font-family: outfit;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  background-color: hsl(212, 45%, 89%);
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.qr-code-container {
+  max-width: 290px;
+  margin-bottom: 20px;
+}
+
+.qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.content {
+  text-align: center;
+  max-width: 260px;
+}
+
+.title {
+  color: hsl(218, 44%, 22%);
+  font-size: 22px;  
+  margin-bottom: 15px;
+}
+
+.comment {
+  color:hsl(220, 15%, 55%);
+  font-size: 15px;
+}
